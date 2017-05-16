@@ -4,11 +4,15 @@ export type TraitRef=string| common.Map<any>
 
 export type Types=types.Types
 
-//TODO FILL IT LATER
+//TODO FILL SETTINGS OPTIONS LATER
 export interface SecuritySchemeDefinition extends common.Annotable {
 
     type: string
     settings?: common.Map<any>
+    describedBy: Operation
+    name: string
+    description: string
+
 }
 export interface Response extends common.Annotable {
     description?: string
