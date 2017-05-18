@@ -259,10 +259,10 @@ export interface FileTypeDeclaration extends TypeDeclaration {
 export interface DateTypeDeclaration extends TypeDeclaration {
     format: string
 }
-export interface Type extends ArrayTypeDeclaration,ObjectDeclaration,TypeSchemaDeclaration,StringTypeDeclaration,FileTypeDeclaration {
+
+export interface Type extends ArrayTypeDeclaration,ObjectDeclaration,TypeSchemaDeclaration,StringTypeDeclaration,FileTypeDeclaration
+{
 }
 
-export interface TypeFragment extends FragmentDeclaration,Type {
-
-}
+export interface TypeFragment extends FragmentDeclaration,Type {}
 
