@@ -65,8 +65,8 @@ export interface Resource extends ResourceBase {
 export interface ResourceBase extends Annotable {
     description?: string
     type?: ResourceTypeRef
-    methods: Method[]
-    uriParameters: Types
+    methods?: Method[]
+    uriParameters?: Types
     is?: TraitRef[]
     securedBy?: SecuritySchemeRef[]
 
