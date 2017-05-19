@@ -102,7 +102,7 @@ export interface LibraryBase extends FragmentDeclaration {
 
     annotationTypes: Types[]
 
-    securitySchemes: Map<SecuritySchemeDefinition>
+    securitySchemes: Map<SecuritySchemeDefinition>[]
 }
 
 export  interface Library extends LibraryBase {
@@ -187,6 +187,7 @@ export interface Example {
     description?: string
     displayName?: string
     structuredValue?: any
+    annotations?: Map<Annotation>;
 }
 
 export type TypeReference= string| string[]| Type
