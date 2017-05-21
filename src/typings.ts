@@ -143,7 +143,7 @@ export interface Response extends Annotable {
     description?: string
 
     //TODO this looks pretty strange (recheck actual output)
-    headers: Type[]
+    headers?: Type[]
     body?: Types
     code: string
 }
