@@ -200,7 +200,7 @@ export interface TypeDeclaration extends Annotable {
     examples?: Example[]
     structuredExample?: Example
 
-    enum: any[]
+    enum?: any[]
     type: TypeReference
     name?: string
     default?: any
