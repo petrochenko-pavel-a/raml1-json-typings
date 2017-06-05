@@ -100,9 +100,9 @@ export interface LibraryBase extends FragmentDeclaration {
 
     traits?: Map<Trait>[]
 
-    annotationTypes: Types[]
+    annotationTypes?: Types[]
 
-    securitySchemes: Map<SecuritySchemeDefinition>[]
+    securitySchemes?: Map<SecuritySchemeDefinition>[]
 }
 
 export  interface Library extends LibraryBase {

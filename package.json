@@ -1,6 +1,6 @@
 {
   "name": "raml1-json-typings",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "private": false,
   "scripts": {
     "test-cov": " ./node_modules/.bin/istanbul cover _mocha dist/tests/*Tests.js",
